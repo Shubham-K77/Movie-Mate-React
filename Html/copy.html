@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Include FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-iBxlfVyh2d5+MzJ8pcK4OtViZr3mQ9vaiuhh4CfR5/aBB/4Frn8tGo90JuyFjE6qx1tW6SB6r2kfD8S3Jc2z/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../Css/copy.css" />
+    <title>COPY TEXT</title>
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <h1>COPY THE TEXT TO CLIPBOARD!</h1>
+      </div>
+      <div class="copiedMessage" id="display">
+        <p>Copied</p>
+      </div>
+      <div class="mainText">
+        <input
+          type="text"
+          name="copyText"
+          id="copyText"
+          placeholder="Enter Your Text Here...."
+        />
+        <button onclick="copyText()">Copy</button>
+      </div>
+    </main>
+    <script src="../JS/copyUrl.js"></script>
+  </body>
+</html>

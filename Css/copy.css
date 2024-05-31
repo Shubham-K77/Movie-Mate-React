@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Freeman", sans-serif;
+}
+.heading {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: green;
+  font-size: 2rem;
+}
+.mainText {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainText input {
+  border: 2px solid black;
+  width: 24vw;
+  margin-right: 10px;
+  height: 8vh;
+  padding: 2px;
+  font-family: "Freeman", sans-serif;
+  font-size: 2rem;
+  border-radius: 4px;
+}
+
+.mainText button {
+  width: 8vw;
+  height: 7vh;
+  background-color: #b200ed;
+  color: white;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-left: 2.6px;
+}
+
+.copiedMessage {
+  display: flex;
+  margin-left: 57.75rem;
+  margin-top: 0.25rem;
+  display: none;
+}
+
+.copiedMessage p {
+  background-color: #b200ed;
+  color: white;
+  border-radius: 2rem;
+  width: 4vw;
+  height: 4vh;
+  padding-top: 0.75px;
+  text-align: center;
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.paragraph {
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+
+.table {
+  margin: 2rem;
+}
+
+.table table {
+  border-collapse: collapse;
+  width: 95vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  padding: 1px;
+}
+
+.table tr,
+.table td,
+.table th {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.list {
+  margin: 2rem;
+}
+
+.forms fieldset {
+  border: 2px dotted firebrick;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.forms {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.forms label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+}
+
+.forms input {
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.forms button {
+  width: 16rem;
+  height: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  background-color: darkturquoise;
+  color: white;
+  font-weight: bold;
+}
+
+.forms button:hover {
+  width: 18rem;
+  height: 4rem;
+  background-color: chartreuse;
+  border-radius: 4px;
+  text-decoration: 2px underline red;
+  cursor: pointer;
+}

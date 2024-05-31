@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Document</title>
+    <link rel="shortcut icon" href="../../images.png" type="image/png" />
+    <link rel="stylesheet" href="../Css/style.css" />
+  </head>
+  <body>
+    <div class="image">
+      <img
+        src="../../images.png"
+        alt="APEX LOGO"
+        onerror="this.src='https://cdn.britannica.com/02/152302-050-1A984FCB/African-savanna-elephant.jpg'"
+      />
+    </div>
+    <div class="list">
+      <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+      </ol>
+    </div>
+    <div class="paragraph">
+      <p>Hello World</p>
+    </div>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Raktim</td>
+            <td>Shrestha</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>Saral</td>
+            <td>Sainiju</td>
+            <td>25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="forms">
+      <form id="formData" onsubmit="onInsert(); return false;">
+        <fieldset>
+          <legend>General Information</legend>
+          <label for="firstName"> First Name: </label>
+          <br />
+          <input type="text" id="firstName" name="firstName" />
+          <br />
+          <label for="lastName"> Last Name: </label>
+          <br />
+          <input type="text" id="lastName" name="lastName" />
+          <br />
+          <label for="password"> Password: </label>
+          <br />
+          <input type="password" id="password" name="password" />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Gender Information</legend>
+          <label for="Male"> Male: </label>
+          <input type="radio" value="Male" id="Male" name="gender" />
+          <br />
+          <label for="Female"> Female: </label>
+          <input type="radio" value="Female" id="Female" name="gender" />
+          <br />
+          <label for="others"> Others: </label>
+          <input type="radio" value="others" id="others" name="gender" />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Hobby Information</legend>
+          <label for="selectedData"> Select Hobby: </label>
+          <br />
+          <select id="selectedData" name="hobby">
+            <option selected value="coding">Coding</option>
+            <option value="fishing">Fishing</option>
+            <option value="dancing">Dancing</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Date Information</legend>
+          <label for="calendar"> Calendar: </label>
+          <input type="date" id="calendar" name="calendar" />
+        </fieldset>
+        <fieldset>
+          <legend>Complaint Information</legend>
+          <label for="complaint"> Complaint: </label>
+          <textarea
+            id="complaint"
+            name="complaint"
+            rows="10"
+            style="border: 2px solid black; width: 50%"
+          ></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="message" id="message"></div>
+    <script src="../JS/index.js"></script>
+  </body>
+</html>
